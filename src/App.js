@@ -22,6 +22,7 @@ function App() {
                 <div className="content_itmes">
                 {pizzas.map((object) => (
                     <PizzaBlock
+                        key={object.id}
                         {... object}
                     />
                 ))}
