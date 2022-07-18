@@ -19,7 +19,7 @@ function App() {
             <Sort />
           </div>
           <h2 className="content__title">Все пиццы</h2>
-                <div className="content_itmes">
+            <div className="content__items">
                 {pizzas.map((object) => (
                     <Index
                         key={object.id}
